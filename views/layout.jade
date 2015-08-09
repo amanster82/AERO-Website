@@ -30,7 +30,7 @@ html(lang='en')
                         span.icon-bar
                         span.icon-bar
                         span.icon-bar
-                    a.navbar-brand.topnav(href='#')= club.fullName
+                    a.navbar-brand.topnav(href='/')= club.fullName
                 // Collect the nav links, forms, and other content for toggling
                 #bs-example-navbar-collapse-1.collapse.navbar-collapse
                     ul.nav.navbar-nav.navbar-right
@@ -44,18 +44,11 @@ html(lang='en')
             .row
                 .col-lg-12
                     ul.list-inline
-                        li
-                            a(href='#') Home
-                        li.footer-menu-divider ⋅
-                        li
-                            a(href='#about') About
-                        li.footer-menu-divider ⋅
-                        li
-                            a(href='#services') Services
-                        li.footer-menu-divider ⋅
-                        li
-                            a(href='#contact') Contact
-                    p.copyright.text-muted.small Copyright © Your Company 2014. All Rights Reserved
+                        each item in layout.footer
+                            li
+                                a(href=item.href)= item.title
+                            li.footer-menu-divider ⋅
+                    p.copyright.text-muted.small.text-center "Copyright © #{club.fullName} 2014. All Rights Reserved"
     // jQuery
     script(src='js/jquery.js')
     // Bootstrap Core JavaScript

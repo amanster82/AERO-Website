@@ -6,11 +6,13 @@ block content
             .col-lg-2.col-lg-offset-5
         each exec in currentExecs
             .col-xs-12.col-sm-6.col-lg-3
-                .thumbnail
-                  img(src='...', alt='...')
-                  .caption
-                    h3= exec.postion
-                    p= exec.bio
-                    p
-                      a.btn.btn-primary(href='#', role='button') Button
-                      a.btn.btn-default(href='#', role='button') Button
+                .thumbnail(style="min-height:600px;height:600px; overflow:hidden")
+                    img.img-circle.img-responsive(src=exec.picture, alt='...', style="height:200px")
+                    .caption
+                        h3.text-center= exec.position
+                        p= exec.bio
+                        if exec.email
+                            a(href="mailto:#{exec.email}")
+                                i.fa.fa-envelope-o.fa-fw &nbsp
+                                span= exec.email
+
