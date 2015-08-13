@@ -3,6 +3,11 @@ extends layout.jade
 block content
     .container(style="padding-top:50px")
         each level in Object.keys(sponsors)
-            h1= level
-                each sponsor in sponsors[level]
-                    img(src=sponsor.picture)
+            // if there are any sponsors on this level
+            // sponsor level will only be displayed if there is a sponsor at that level
+            if sponsors[level].logos.length
+                h1= level
+                    br
+                    each sponsor in sponsors[level].logos
+                        img(src=sponsor.logo, style="max-height:#{sponsors[level].height}; max-width:#{sponsors[level].width}")
+                        &nbsp

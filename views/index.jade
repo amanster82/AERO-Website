@@ -2,12 +2,12 @@ extends layout
 
 block content
     // moved from the css file so that we can compile using jade
-    .intro-header(style= "background:  url(../#{layout.intro.background}) no-repeat center center")
+    .intro-header(style= "background:  url(#{layout.intro.background}) no-repeat center center")
         .container
             .row
                 .col-lg-12
                     .intro-message
-                        img(src="http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbb21KNEtBdklqaTQ")
+                        img(src= layout.intro.logo)
                         h3= club.shortDescription
                         hr.intro-divider
                         ul.list-inline.intro-social-buttons

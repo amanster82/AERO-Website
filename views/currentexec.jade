@@ -13,7 +13,7 @@ block content
                         h3.text-center= exec.position
                         p= exec.bio
                         if exec.email
-                            a(href="mailto:#{exec.email}")
-                                i.fa.fa-envelope-o.fa-fw &nbsp
-                                span= exec.email
-
+                            .text-center
+                                a(href="mailto:#{exec.email}")
+                                    i.fa.fa-envelope-o.fa-fw &nbsp
+                                    span= exec.email

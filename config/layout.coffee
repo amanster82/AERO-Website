@@ -1,7 +1,8 @@
 module.exports =
     logo: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbbzZCQUg5WUEwejQ"
     intro:
-        background: 'images/background.jpeg'
+        logo: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbb21KNEtBdklqaTQ"
+        background: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbWEUxa0RramtIWDg"
         buttons: [
                 title: 'twitter'
                 fa: 'twitter'
@@ -24,11 +25,11 @@ module.exports =
             href: "sponsors"
         ,
             title: "Sponsorship Info"
-            href: "sponsorsus"
+            href: "sponsorus"
         ]
     ,
-        title: 'The Plane'
-        href: 'plane'
+        title: 'Contact'
+        href: 'contact'
     ]
     footer: [
     ]
