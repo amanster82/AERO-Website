@@ -30,13 +30,27 @@ html(lang='en')
                         span.icon-bar
                         span.icon-bar
                         span.icon-bar
-                    a.navbar-brand.topnav(href='/')= club.fullName
+                    //a.navbar-brand.topnav(href='/')= club.fullName
+                    // two options for the logo in t
+                    a(href="/")
+                        img(src= layout.logo alt="")
                 // Collect the nav links, forms, and other content for toggling
                 #bs-example-navbar-collapse-1.collapse.navbar-collapse
                     ul.nav.navbar-nav.navbar-right
                         each item in layout.navbarRight
-                            li
-                                a(href= item.href)= item.title
+                            if item.dropdown
+                                li.dropdown
+                                    a.dropdown-toggle(href="#", data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')= item.title
+                                        span.caret
+                                    ul.dropdown-menu
+                                        each drop in item.dropdown
+                                            li
+                                                a(href= drop.href)= drop.title
+                                        // could add in some logic to have a separator here
+                                            li.divider(role='separator')
+                            else
+                                li
+                                    a(href= item.href)= item.title
         block content
 
     footer

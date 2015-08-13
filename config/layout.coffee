@@ -1,4 +1,5 @@
 module.exports =
+    logo: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbbzZCQUg5WUEwejQ"
     intro:
         background: 'images/background.jpeg'
         buttons: [
@@ -12,13 +13,22 @@ module.exports =
         ]
     navbarRight: [
         title: 'About'
-        href: 'about'
+        href: '/#about'
     ,
         title: 'Current Exec'
         href: 'currentexec'
     ,
         title: 'Sponsorship'
-        href: 'sponsor'
+        dropdown: [
+            title: "Current Sponsors"
+            href: "sponsors"
+        ,
+            title: "Sponsorship Info"
+            href: "sponsorsus"
+        ]
+    ,
+        title: 'The Plane'
+        href: 'plane'
     ]
     footer: [
     ]

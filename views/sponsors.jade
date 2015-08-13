@@ -1,0 +1,8 @@
+extends layout.jade
+
+block content
+    .container(style="padding-top:50px")
+        each level in Object.keys(sponsors)
+            h1= level
+                each sponsor in sponsors[level]
+                    img(src=sponsor.picture)

@@ -7,6 +7,7 @@ block content
         each exec in currentExecs
             .col-xs-12.col-sm-6.col-lg-3
                 .thumbnail(style="min-height:600px;height:600px; overflow:hidden")
+                    h2.text-center= exec.name
                     img.img-circle.img-responsive(src=exec.picture, alt='...', style="height:200px")
                     .caption
                         h3.text-center= exec.position

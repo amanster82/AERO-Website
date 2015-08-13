@@ -1,12 +1,15 @@
 module.exports =
-    whatWeDo: """
+    whatWeDo: 
+        text:"""
         # What We Do
         ---
         UVic AERO is an engineering student team comprised of undergraduate students in Mechanical, Electrical, Computer, and Software Engineering, as well as Computer Science. Since UVic AERO's inception, our mandate has been to provide students with real-world engineering experience.
 
         As members of UVic AERO, students have the opportunity to gain experience in many different areas, including composites, aerodynamics, aircraft design, CAD, field operations, flight testing, autopilots, power management, communications systems, imaging, image processing, circuit simulation, embedded systems development, embedded programming, PCB design, RC flying, and project management.
     """
-    objective:"""
+        picture: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbajh1aXBQd2VKSFk"
+    objective:
+        text:"""
         # Objectives
         Aero engages in activities that help us fulfill our mission objectives:
 
@@ -20,11 +23,15 @@ module.exports =
 
         We compete anually in competitions which push us to design, fabricate, test and integration many complex systems in one UAV. This time intensive process allows us to apply our learnings to a real world problem. A UAV contains many mechanical, electrical and software systems that we design from the ground up, implement and test. Outside of the creation of the UAV itself, we prepare techincal reports and journal papers that outline our design decisions and methods.
     """
-    competitions:"""
-        We compete in competitions for Unmanned Aerial Vehicles (UAV's) with applications to the agricultural, oil & gas, and mining industry.
+        picture: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbeUE5aVk3Sk1SbkE"
+    competitions:
+        text:"""
+            # Competitions
+            We compete in competitions for Unmanned Aerial Vehicles (UAV's) with applications to the agricultural, oil & gas, and mining industry.
 
-        # Unmanned Systems Canada
-        Typically comprised of an aerial survey of a simulated disaster. Teams identify potential hazards, chemical spills, damaged vehicles and structures, and people using an Unmanned Aerial Vehicle.
+            ## Unmanned Systems Canada
+            Typically comprised of an aerial survey of a simulated disaster. Teams identify potential hazards, chemical spills, damaged vehicles and structures, and people using an Unmanned Aerial Vehicle.
 
-        We last attended in 2015 and sent seven members to Alma, Quebec, April 30th to May 4th to compete against 13 Canadian Universities. We placed 2nd and identified 38 objects of interest with multiple passes of the area in 30 minutes of flight time.
-    """
+            We last attended in 2015 and sent seven members to Alma, Quebec, April 30th to May 4th to compete against 13 Canadian Universities. We placed 2nd and identified 38 objects of interest with multiple passes of the area in 30 minutes of flight time.
+        """
+        picture: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbdDJ5bnJyRllqMDg"
