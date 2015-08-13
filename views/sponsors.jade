@@ -2,7 +2,7 @@ extends layout.jade
 
 block content
     .container(style="padding-top:50px")
-        each level in Object.keys(sponsors)
+        each level in sponsors.levels
             // if there are any sponsors on this level
             // sponsor level will only be displayed if there is a sponsor at that level
             if sponsors[level].logos.length

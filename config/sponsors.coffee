@@ -1,4 +1,14 @@
 module.exports =
+    # Probably overkill but I made this array to preserve the 
+    # order of the levels. I was previously using Object.keys for 
+    # extraction of the levels but then I got worried about ordering issues
+    # I think this is a better option
+    levels: [
+        'Platinum',
+        'Gold',
+        'Silver',
+        'Bronze'
+    ]
     "Platinum":
         height: "150px"
         width: "250px"
