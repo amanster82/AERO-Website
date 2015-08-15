@@ -1,6 +1,35 @@
 extends layout.jade
 
 block content
-    .container(style="padding-top:50px")
-        
+    .container(style="padding-top:50px").text-center
+        each pos in contact.positions
+            .col-xs-12.col-sm-6.col-lg-3
+                h2= pos.title
+                each exec in currentExecs
+                    if exec.position == pos.title
+                        h4= exec.name
+                        p= pos.description
+                        a(href="mailto:#{exec.email}")
+                            i.fa.fa-envelope-o.fa-fw &nbsp
+                            span= exec.email
+                        if exec.fax
+                            br
+                            i.fa.fa-fax.fa-fw &nbsp
+                            span
+                                | fax: #{exec.fax}
+                        if exec.phone
+                            br
+                            i.fa.fa-phone.fa-fw &nbsp
+                            span
+                                | phone: #{exec.phone}
+        // Mail portion
+        .col-xs-12.col-sm-6.col-lg-3
+            h1= contact.mail.title
+            div!= markdown(contact.mail.address)
+        .col-xs-12.col-sm-12.col-lg-12
+            h1 In Person
+            p Drop by our office at ELW B150 on UVics campus
+            a(href= contact.map)
+                img.img-responsive.center-block(src=contact.map)
+
 

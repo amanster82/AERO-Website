@@ -1,4 +1,5 @@
 md = require 'marked'
+console.log()
 module.exports =
     club: require './club.coffee'
     layout: require './layout.coffee'
@@ -7,4 +8,4 @@ module.exports =
     currentExecs: require './currentExec.coffee'
     markdown: md
     sponsors: require './sponsors.coffee'
-    Object: Object
+    contact: require './contact.coffee'

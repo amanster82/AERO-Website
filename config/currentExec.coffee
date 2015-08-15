@@ -31,38 +31,15 @@ module.exports =[
             All of us here on the team would be better off without him.
         """
         picture: "https://upload.wikimedia.org/wikipedia/commons/3/39/Richard_M._Nixon,_ca._1935_-_1982_-_NARA_-_530679.jpg"
-    ,
-        name: "Tristan Nixon"
-        position: "Head Engineer"
-        bio: """
-            Tristan lives his life by the mantra, "look bad smell worse" he has little to no skills or talents and has almost no ability to work efficiently or productively.
-
-            All of us here on the team would be better off without him.
-        """
-        picture: "https://upload.wikimedia.org/wikipedia/commons/3/39/Richard_M._Nixon,_ca._1935_-_1982_-_NARA_-_530679.jpg"
-    ,
-        name: "Tristan Nixon"
-        position: "Head Engineer"
-        bio: """
-            Tristan lives his life by the mantra, "look bad smell worse" he has little to no skills or talents and has almost no ability to work efficiently or productively.
-
-            All of us here on the team would be better off without him.
-        """
-        picture: "https://upload.wikimedia.org/wikipedia/commons/3/39/Richard_M._Nixon,_ca._1935_-_1982_-_NARA_-_530679.jpg"
-    ,
-        name: "Tristan Nixon"
-        position: "Head Engineer"
-        bio: """
-            Tristan lives his life by the mantra, "look bad smell worse" he has little to no skills or talents and has almost no ability to work efficiently or productively.
-
-            All of us here on the team would be better off without him.
-        """
-        picture: "https://upload.wikimedia.org/wikipedia/commons/3/39/Richard_M._Nixon,_ca._1935_-_1982_-_NARA_-_530679.jpg"
+        email: "engineering@uvic.ca"
     ,
         name: "Dr. Afzal Suleman"
         position: "Faculty Advisor"
         bio: """
             Dr. Afzal Suleman is a Professor in the Department of Mechanical Engineering. He has extensive experience in the aerospace field and is currently an Associate Fellow of the American Institute of Aeronautics and Astronautics. He has been advising and mentoring the UVic Aero Team since its inception at the University of Victoria in 2002.
         """
+        email: "suleman@uvic.ca"
         picture: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbNlpRMGl5MUxLNUk"
+        phone: "250 721 6051"
+        fax: "250 721 6039"
 ]
