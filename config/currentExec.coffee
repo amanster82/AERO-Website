@@ -1,7 +1,7 @@
 module.exports =[
         name:"Andrei Taylor"
         position: "President"
-        bio: """ 
+        bio: """
             Andrei is a third year Software Engineering student. He spent 2 years as a Account Manager for a publishing company before returning to school to complete a degree in engineering. He is passionate about automation and hopes to sepcialize in Aerospace automation after completing his degree.
         """
         picture: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbRWJncmtjay1hcjA"
@@ -10,9 +10,9 @@ module.exports =[
         name: "Luke Mills"
         position: "Electrical Lead"
         bio: """
-            After completing the Electronics and Computer Engineering program at Camosun College Luke transferred to UVic to get his Bachelors of Electrical Engineering. Luke plans on completing a math minor and specializing in Computational Intelligence before pursuing a career in the aerospace or defence industries.
+            After completing the Electronics and Computer Engineering program at Camosun College, Luke transferred to UVic to get his Bachelors of Electrical Engineering. Loving all aspects of engineering Luke hasn't decided on a career path, but when he does his passion and dedication will push him to excel at it.
         """
-        picture: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbSzI5QV93bW92aTQ"
+        picture: "http://lukemills.ca/Images/Luke1.jpg"
         email: "electrical@uvicaero.com"
     ,
         name: "Michael Dobinson"
