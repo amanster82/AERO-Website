@@ -1,12 +1,13 @@
 module.exports =
-    whatWeDo: 
+    whatWeDo:
         text:"""
         # What We Do
-        ---
-        UVic AERO is an engineering student team comprised of undergraduate students in Mechanical, Electrical, Computer, and Software Engineering, as well as Computer Science. Since UVic AERO's inception, our mandate has been to provide students with real-world engineering experience.
+        UVic AERO is a group of approximately 40 engineering students who build Unmanned Aerial Systems (UAS's), we compete annually in the Unmanned Systems Canada Student competition.
 
-        As members of UVic AERO, students have the opportunity to gain experience in many different areas, including composites, aerodynamics, aircraft design, CAD, field operations, flight testing, autopilots, power management, communications systems, imaging, image processing, circuit simulation, embedded systems development, embedded programming, PCB design, RC flying, and project management.
-    """
+         The competition requires each team to build a UAS to survey a simulated disaster zone and give a detailed report of the damaged area. AERO achieved 3rd place in 2014 and 2nd place in 2015.
+
+          AERO aims to give students experience working in the quickly growing industry of aerial robotics. Members learn to apply their skills as they design and create software, circuit boards, and airframes while working in a large team with students from many different disciplines.
+        """
         picture: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbajh1aXBQd2VKSFk"
     objective:
         text:"""

@@ -2,4 +2,13 @@ extends layout
 
 block content
     .container
-        div(style="padding-top:60px")!= markdown(sponsorus.body)
+        div(style="padding-top:60px")!= markdown(sponsorUs.body)
+    .container
+        each level in sponsors.levels
+            .col-xs-12.col-sm-12.col-lg-4
+                .jumbotron(style="min-height:600px;height:600px; overflow:hidden")
+                    h1.text-center= level
+                    p= sponsorUs.levels[level].cash
+                    ul
+                        each reward in sponsorUs.levels[level].rewards
+                            li= reward

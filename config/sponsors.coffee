@@ -1,6 +1,6 @@
 module.exports =
-    # Probably overkill but I made this array to preserve the 
-    # order of the levels. I was previously using Object.keys for 
+    # Probably overkill but I made this array to preserve the
+    # order of the levels. I was previously using Object.keys for
     # extraction of the levels but then I got worried about ordering issues
     # I think this is a better option
     levels: [
@@ -14,6 +14,7 @@ module.exports =
         width: "250px"
         logos: [
             logo: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbbm8tbU4yNTl0Q3c"
+            link: "http://ess.uvic.ca/"
         ,
             logo: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbTVd4bVpZdUhYMjA"
         ,
@@ -23,15 +24,18 @@ module.exports =
         ]
     "Gold":
         height: "100px"
-        width: "50px"
+        width: "167px"
         logos: [
-            logo: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbbm8tbU4yNTl0Q3c"
         ]
     "Silver":
-        height: "60px"
+        height: "80px"
+        width: "133px"
         logos: [
         ]
     "Bronze":
-        height: "40px"
+        height: "60px"
+        width: "100px"
         logos: [
+            logo: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbRTdPeldMc18zNDA"
+            link: "http://engineersmachineshop.ca/"
         ]
