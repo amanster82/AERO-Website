@@ -39,19 +39,19 @@
 					</div>
 					<div class="ui horizontal divider"></div>
 					<div class="ui padded raised segment">
-						<div class="ui inverted fluid form">
-						  <div class="three fields">
+						<form class="ui inverted fluid form signup-form" onsubmit="return false;">
+						<div class="three fields">
 							<div class="four wide field">
-							  <label>First name</label>
-							  <input type="text" placeholder="First Name">
+								<label>First name</label>
+								<input type="text" placeholder="First Name" name="first">
 							</div>
 							<div class="four wide field">
-							  <label>Last name</label>
-							  <input type="text" placeholder="Middle Name">
+								<label>Last name</label>
+								<input type="text" placeholder="Last Name" name="last">
 							</div>
 							<div class="eight wide field">
-							  <label>Email</label>
-							  <input type="email" placeholder="jdoe@uvic.ca">
+								<label>Email</label>
+								<input type="email" placeholder="jdoe@uvic.ca" name="email">
 							</div>
 						  </div>
 						<div class="ui horizontal divider"></div>
@@ -59,44 +59,56 @@
 							<label class="ui basic label">What are you interested in?</label>
 							<div class="field">
 								<div class="ui checkbox">
-									<input type="checkbox" tabindex="0" class="hidden">
+									<input type="checkbox" tabindex="0" class="hidden" name="general" checked>
 									<label>General Info</label>
 								</div>
 							</div>
 							<div class="field">
 								<div class="ui checkbox">
-									<input type="checkbox" tabindex="0" class="hidden">
+									<input type="checkbox" tabindex="0" class="hidden" name="software">
 									<label>Software</label>
 								</div>
 							</div>
 							<div class="field">
 								<div class="ui checkbox">
-									<input type="checkbox" tabindex="0" class="hidden">
+									<input type="checkbox" tabindex="0" class="hidden" name="electrical">
 									<label>Electrical</label>
 								</div>
 							</div>
 							<div class="field">
 								<div class="ui checkbox">
-									<input type="checkbox" tabindex="0" class="hidden">
+									<input type="checkbox" tabindex="0" class="hidden" name="embedded">
 									<label>Embedded</label>
 								</div>
 							</div>
 							<div class="field">
 								<div class="ui checkbox">
-									<input type="checkbox" tabindex="0" class="hidden">
+									<input type="checkbox" tabindex="0" class="hidden" name="mechanical">
 									<label>Mechanical</label>
 								</div>
 							</div>
 							<div class="field">
 								<div class="ui checkbox">
-									<input type="checkbox" tabindex="0" class="hidden">
+									<input type="checkbox" tabindex="0" class="hidden" name="aeronautical">
 									<label>Aeronautical</label>
 								</div>
 							</div>
-						  </div>
-						  <div class="ui horizontal divider"></div>
-						  <button class="massive ui inverted basic button">Sign Up</button>
 						</div>
+						<div class="ui horizontal divider"></div>
+						<div class="massive ui inverted basic submit button">Sign Up</div>
+						<div class="ui horizontal divider"></div>
+						<div class="ui one column centered grid">
+							<div class="one four wide column left aligned container">
+									<div class="ui error message"></div>
+							</div>
+						</div>
+						<div class="ui one column centered grid">
+							<div class="ui success message">
+								<div class="header">Success</div>
+								<p>Thanks for signing up to learn more about UVic AERO!</p>
+							</div>
+						</div>
+						</form>
 					</div>
 				</div>
 			</div>
