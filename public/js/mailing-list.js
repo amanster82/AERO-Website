@@ -1,19 +1,15 @@
 $(document).ready(function() {
 
-$('.ui.checkbox').checkbox();
-
 $.fn.api.settings.api = {
-  'newsletter create' : '/mail/create',
+  'newsletter add' : '/mail/adduser',
 };
 
-function submitform(event, fields) {
-	console.log(fields);
-};
+// Make checkboxes interactive
+$('.ui.checkbox').checkbox();
 
 // validation 
  $('.signup-form').form({
 	on: 'blur', revalidate: true,
-// 	onSuccess: submitform,
 	fields: {
 		email: {
 		  identifier : 'email',
@@ -40,20 +36,19 @@ function submitform(event, fields) {
 		}
 }});
 
-$('.signup-form .submit.button')
-  .api({
-	action: 'newsletter create',
+// Add API action for 
+$('.signup-form .submit.button').api({
+	action: 'newsletter add',
 	method: 'POST',
 	serializeForm: true,
 	beforeSend: function(settings) {
-	  // open console to inspect object
+		// Make sure form passed validation
 		if ( !$('.signup-form').form('is valid') ) {
-		  return false;
+			return false;
 		}
-	  console.log(settings.data);
-	  return settings;
+
+		return settings;
 	}
-  })
-;
+});
 
 });
