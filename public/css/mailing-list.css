@@ -1,0 +1,33 @@
+body {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d57b20+0,ffa84c+100 */
+	background: #d57b20; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d57b20 0%, #ffa84c 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d57b20), color-stop(100%,#ffa84c)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #d57b20 0%,#ffa84c 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #d57b20 0%,#ffa84c 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #d57b20 0%,#ffa84c 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #d57b20 0%,#ffa84c 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d57b20', endColorstr='#ffa84c',GradientType=0 ); /* IE6-9 */
+
+	height: 100%;
+	min-height: 100%;
+	color: white;
+}
+
+body > .masthead {
+	padding: 1em 0 0 1em !important;
+}
+
+body > .masthead img {
+	height: 80px;
+}
+
+.login-container {
+	margin-top: 0.8em;
+	margin-right: 2em;
+}
+
+body > .content-container {
+  height: 100%;
+  margin-top: -150px !important;
+}
