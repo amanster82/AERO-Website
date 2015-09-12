@@ -1,4 +1,7 @@
 md = require 'marked'
+md.setOptions(
+    gfm: true
+)
 console.log()
 module.exports =
     club: require './club.coffee'

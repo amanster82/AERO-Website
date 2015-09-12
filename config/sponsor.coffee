@@ -32,33 +32,37 @@ module.exports =
             rewards: [
                 "Small logo on website and promotional material"
             ]
-    body:"""
-        Without the backing of our sponsors and supporters we would not be able to finance various aspects of our operation. By becoming a supporter of our team you will receive media exposure at the competitions we attend and all of our demonstration flights. Support of our team also gives you and your company direction communication with some of the most motivated and hardworking students the University of Victoria has to offer.
+    ourSupporters: """
+    # Our Supporters
 
-        ## Donations
+    Without the backing of our [sponsors and supporters](/sponsors) we would not be able to finance various aspects of our operation. By becoming a supporter of our team you will receive media exposure at the competitions we attend and all of our demonstration flights. Support of our team also gives you and your company direction communication with some of the most motivated and hardworking students the University of Victoria has to offer.
+    """
+    uvicDonationsSite:"http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbVXk5U2QwU2twUzg"
+    donationsAddress:"""
+        University of Victoria<br>
+        Faculty of Engineering<br>
+        PO Box 3055 STN CSC<br>
+        Victoria, BC V8W 3P6<br>
+        ATTN: Jody Kitts"""
+    donations:"""
+    # Donate
+    If you wish to donate funds, or services to help support us and our mission, we will thank you for your gracious contribution on our webpage. 
+    *All donations are tax deductable*
+    ## Onlinee
+    It is possible to donate directly to our team online through the [University of Victoria Online Donations Page](https://extrweb.uvic.ca/donation-forms/faculty-of-engineering).
 
-        If you wish simply to donate funds, equipment, or services to help support us and our mission, we will thank you for your gracious contribution on our webpage. In addition we will also provide you with a donation receipt as the University of Victoria is a registered charity.
+    _Please be sure to select “UVic AERO (Student UAV Engineering)” in the Designation field on the online donations page. (See photo)_
+    ## Cheque
+    Cheques mailed to the address below are with “UVic AERO” in the memo section are deposited in our account.
+    """
+    levelsText:"""
+    # Levels of Sponsorship
 
-        It is also possible to donate directly to our team online through the University of Victoria website. Please be sure to select “UVic AERO (Student UAV Engineering)” in the Designation field on the online donations page.
+    Our team requires support to purchase airfare, rent hotel rooms, design and print team clothing and banners. We often pay these through cash sponsorship from individuals or companies. If your business provides one of these items as a service you may also donate them to be counted as a cash sponsorship. We currently offer three levels of advertisement, proportional to the size of the sponsorship; they are listed in the table below:
 
-        Alternatively, cheques can be made out to “University of Victoria” containing “UVic AERO” in the memo section and mailed directly to the address below. Thank you for your interest in supporting our student team.
+    Our team also requires equipment and off-the-shelf components to complete the unmanned system and test it. Similar to cash sponsorship, support through equipment and hardware sponsorship also have corresponding levels or advertisement as part of our thank you.
 
-        ## Mailing Address
-        ```
-        University of Victoria
-        Faculty of Engineering
-        PO Box 3055 STN CSC
-        Victoria, BC V8W 3P6
-        ATTN: Jody Kitts
-        ```
+    Acknowledgement receipts are provided for all sponsorship contributions.
 
-        ## Levels of Sponsorship
-
-        Our team requires support to purchase airfare, rent hotel rooms, design and print team clothing and banners. We often pay these through cash sponsorship from individuals or companies. If your business provides one of these items as a service you may also donate them to be counted as a cash sponsorship. We currently offer three levels of advertisement, proportional to the size of the sponsorship; they are listed in the table below:
-
-        Our team also requires equipment and off-the-shelf components to complete the unmanned system and test it. Similar to cash sponsorship, support through equipment and hardware sponsorship also have corresponding levels or advertisement as part of our thank you.
-
-        Acknowledgement receipts are provided for all sponsorship contributions.
-
-        If you're interested in discussing how you can support our team, please contact us.
+    If you're interested in discussing how you can support our team, please [contact us](/contact).
     """

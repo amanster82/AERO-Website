@@ -7,6 +7,16 @@ module.exports =[
         picture: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbRWJncmtjay1hcjA"
         email: "president@uvicaero.com"
     ,
+        name: "Tristan Nixon"
+        position: "Head Engineer"
+        bio: """
+            Tristan lives his life by the mantra, "look bad smell worse" he has little to no skills or talents and has almost no ability to work efficiently or productively.
+
+            All of us here on the team would be better off without him.
+        """
+        email: "engineering@uvicaero.com"
+        picture: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbTFR4VjdvTHZnSmM"
+    ,
         name: "Luke Mills"
         position: "Electrical Lead"
         bio: """
@@ -29,16 +39,6 @@ module.exports =[
         email: "embedded@uvicaero.com"
         picture: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbSjJ2Tkdmc09ZOW8"
         email: "embedded@uvicaero.com"
-    ,
-        name: "Tristan Nixon"
-        position: "Head Engineer"
-        bio: """
-            Tristan lives his life by the mantra, "look bad smell worse" he has little to no skills or talents and has almost no ability to work efficiently or productively.
-
-            All of us here on the team would be better off without him.
-        """
-        picture: "https://upload.wikimedia.org/wikipedia/commons/3/39/Richard_M._Nixon,_ca._1935_-_1982_-_NARA_-_530679.jpg"
-        email: "engineering@uvicaero.com"
     ,
         name: "Dr. Afzal Suleman"
         position: "Faculty Advisor"
