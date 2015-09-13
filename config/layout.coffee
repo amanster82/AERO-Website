@@ -32,6 +32,9 @@ module.exports =
             href: "sponsorus"
         ]
     ,
+        title: 'Teams'
+        href: 'disciplines'
+    ,
         title: 'Contact'
         href: 'contact'
     ]

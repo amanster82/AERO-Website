@@ -1,0 +1,27 @@
+extends layout
+
+block content
+    .container(style="padding-top:60px")
+    iframe(src='https://www.google.com/calendar/embed?title=Aero%20Meetings&mode=WEEK&height=600&wkst=1&bgcolor=%23ffffff&src=v1lifs5vahvi9etlh6ji000futvhe3of%40import.calendar.google.com&color=%231B887A&ctz=America%2FVancouver', style=' border-width:0 ', width='800', height='600', frameborder='0', scrolling='no')
+    .content-section-a
+        .container
+            .row
+                .col-lg-5.col-sm-6
+                    div!= markdown(about.whatWeDo.text)
+                .col-lg-5.col-lg-offset-2.col-sm-6
+                    img.img-responsive(src=about.whatWeDo.picture, alt='')
+    .content-section-b
+        .container
+            .row
+                .col-lg-5.col-lg-offset-1.col-sm-push-6.col-sm-6
+                    .clearfix
+                    div!= markdown(about.objective.text)
+                .col-lg-5.col-sm-pull-6.col-sm-6
+                    img.img-responsive(src= about.objective.picture, alt='')
+    .content-section-a
+        .container
+            .row
+                .col-lg-5.col-sm-6
+                    div!= markdown(about.competitions.text)
+                .col-lg-5.col-lg-offset-2.col-sm-6
+                    img.img-responsive(src=about.competitions.picture, alt='')
