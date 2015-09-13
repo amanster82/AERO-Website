@@ -20,6 +20,9 @@ module.exports =
         title: 'About'
         href: '/#about'
     ,
+        title: 'Join'
+        href: 'disciplines'
+    ,
         title: 'Current Exec'
         href: 'currentexec'
     ,
@@ -31,9 +34,6 @@ module.exports =
             title: "Sponsorship Info"
             href: "sponsorus"
         ]
-    ,
-        title: 'Teams'
-        href: 'disciplines'
     ,
         title: 'Contact'
         href: 'contact'

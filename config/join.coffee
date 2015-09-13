@@ -7,6 +7,7 @@ module.exports =
     ,
         name: "Mechanical Engineering"
         description: "The mechanical engineering component of the team involves the development of all dedicated mechanical systems needed to support the UAV. These projects involve the antenna tracker, which rotates an antenna to always point at the plane and maintain high quality communications; the camera gimbal, which ensures that an on-board camera can be oriented in any desired position regardless of the orientation of the aircraft; and the launcher, which allows for flight take-off of the relatively large UAV."
+        meetingTime: "Thursdays at 7pm"
     ,
         name:"Electrical Engineering"
         description: "Members working on the electrical aspects of the plane deal with the sensors, communications, and internal wiring of the plane. Depending on the requirements of the competition, this could include infrared imaging, long-range communications, and advanced printed circuit board (PCB) design."
