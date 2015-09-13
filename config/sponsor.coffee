@@ -64,5 +64,5 @@ module.exports =
 
     Acknowledgement receipts are provided for all sponsorship contributions.
 
-    If you're interested in discussing how you can support our team, please [contact us](/contact).
+    If you're interested in discussing how you can support our team, please [contact our president](/contact).
     """

@@ -12,3 +12,4 @@ module.exports =
     markdown: md
     sponsors: require './sponsors.coffee'
     contact: require './contact.coffee'
+    joinPage: require './join.coffee'

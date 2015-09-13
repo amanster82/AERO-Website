@@ -2,26 +2,30 @@ extends layout
 
 block content
     .container(style="padding-top:60px")
-    iframe(src='https://www.google.com/calendar/embed?title=Aero%20Meetings&mode=WEEK&height=600&wkst=1&bgcolor=%23ffffff&src=v1lifs5vahvi9etlh6ji000futvhe3of%40import.calendar.google.com&color=%231B887A&ctz=America%2FVancouver', style=' border-width:0 ', width='800', height='600', frameborder='0', scrolling='no')
-    .content-section-a
-        .container
-            .row
-                .col-lg-5.col-sm-6
-                    div!= markdown(about.whatWeDo.text)
-                .col-lg-5.col-lg-offset-2.col-sm-6
-                    img.img-responsive(src=about.whatWeDo.picture, alt='')
-    .content-section-b
-        .container
-            .row
-                .col-lg-5.col-lg-offset-1.col-sm-push-6.col-sm-6
-                    .clearfix
-                    div!= markdown(about.objective.text)
-                .col-lg-5.col-sm-pull-6.col-sm-6
-                    img.img-responsive(src= about.objective.picture, alt='')
-    .content-section-a
-        .container
-            .row
-                .col-lg-5.col-sm-6
-                    div!= markdown(about.competitions.text)
-                .col-lg-5.col-lg-offset-2.col-sm-6
-                    img.img-responsive(src=about.competitions.picture, alt='')
+    - for team in joinPage.teams
+        .content-section-b
+            .container
+                .row
+                    .col-lg-5.col-sm-6
+                        h1= team.name
+                        p= team.description
+                    .col-lg-5.col-lg-offset-2.col-sm-6
+                        h1 Meetings
+                        if team.meetingTime
+                            p
+                                | The #{team.name} team meets on #{team.meetingTime} in 
+                                span
+                                    // the strong tags below are a stupid hack, im too lazy to deal with it. Someone should figure out a way to do this properly
+                                    if team.location
+                                        strong= team.location
+                                    else
+                                        strong ELW B150
+                        else
+                            p 
+                                | The #{team.name} team does not currently have a meeting schedule
+                        if team.confluence
+                            h1 More Information
+                            p
+                                | See the #{team.name}'s
+                                &nbsp
+                                a(href="#{team.confluence}") Confluence Page
