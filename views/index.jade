@@ -16,7 +16,10 @@ block content
                                     a.btn.btn-default.btn-lg(href=button.href)
                                         i(class="fa fa-#{button.fa} fa-fw")
                                         span.network-name= button.title
-                        h3 Connect with us
+                        if layout.message
+                            div!= markdown(layout.message)
+                        else
+                            h3 Connect with us
     a(name='about')
     .content-section-a
         .container

@@ -21,22 +21,25 @@ module.exports =
         href: '/#about'
     ,
         title: 'Join'
-        href: 'disciplines'
+        href: '/disciplines'
     ,
         title: 'Current Exec'
-        href: 'currentexec'
+        href: '/currentexec'
     ,
         title: 'Sponsorship'
         dropdown: [
             title: "Current Sponsors"
-            href: "sponsors"
+            href: "/sponsors"
         ,
-            title: "Sponsorship Info"
-            href: "sponsorus"
+            title: "Sponsor Us"
+            href: "/sponsorus"
+        ,
+            title: "Donate"
+            href: "/sponsorus/#donate"
         ]
     ,
         title: 'Contact'
-        href: 'contact'
+        href: '/contact'
     ]
     footer: [
     ]
