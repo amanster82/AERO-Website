@@ -39,6 +39,9 @@ module.exports =
             href: "/sponsorus/#donate"
         ]
     ,
+        title: 'Mailing List'
+        href: '/mail'
+    ,
         title: 'Contact'
         href: '/contact'
     ]
