@@ -1,7 +1,7 @@
 module.exports =
     description:"""
     # How can I help?
-    ## If you are a post-secondary student in the area, you can join us for any of the discipline meetings listed below. As a member you are encouraged to work on the systems that interest you and not necessairily the one that corresponds to your discipline.
+    ## If you are a post-secondary student in the area, you can join us for any of the discipline meetings listed below. As a member you are encouraged to work on the systems that interest you and not necessarily the one that corresponds to your discipline.
     ## Also, dont be shy or feel intimidated. We enjoy helping individuals of all skill levels develop the same passion for aeronautics that we have.
 
     ### Note: If you have any trouble with the confluence links below please visit [our registration page](http://jira.uvicaero.com/secure/Signup!default.jspa) to sign up and see the pages.
@@ -30,7 +30,7 @@ module.exports =
         name: "Software Engineering"
         description: "The goal of the competitions is to make the aircraft as autonomous as possible, so a comprehensive autopilot system is necessary. The software has to deal with sensor input, such as reading GPS receivers, gyroscopes, and accelerometers to adjust the course of the plane, and processing images to pick out targets of interest. Finally, the software is responsible for coordinating all other elements of the plane and interaction with the ground control station (GCS). This information is used by the flight team to analyze targets, survey images and mission details."
         confluence: "http://confluence.uvicaero.com/display/ST/Software+Team"
-        meetingTime: "Mondays at 6:30"
+        meetingTime: "Mondays at 6:00"
         #    ,
         #        name: "Civil and Biomedical Engineering"
         #        description: "Almost all of the skills that students develop by being a contributing member of the UVic Aero team are useful to all disciplines of engineering. To be a successful modern engineer one must draw from multidisciplinary knowledge. Biomedical draws heavily from Mechanical and Electrical, while Civil and Mechanical are relatively analogous (especially in the first three years). There will always be a place on the Aero team for someone who is interested and motivated."
