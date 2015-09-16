@@ -2,6 +2,7 @@ $(document).ready(function() {
 
 $.fn.api.settings.api = {
   'newsletter add' : '/mail/adduser',
+  'newsletter login' : '/mail/login'
 };
 
 // Make checkboxes interactive
@@ -36,7 +37,52 @@ $('.ui.checkbox').checkbox();
 		}
 }});
 
-// Add API action for 
+// Validation 
+$.fn.form.settings.rules.validatePassword = function(value) {
+	var success = false;
+	$.ajax({
+	    async : false,
+	    url : "/mail/login",
+	    type : "POST",
+	    data : {
+	        password: value
+	    },
+	    dataType: "json",
+	    success: function(data){
+	        success = data.success;
+	        return data.success;
+	    }
+	});
+
+	return success;
+};
+
+
+ $('.login-form').form({
+	on: 'blur', revalidate: true,
+	fields: {
+		password: {
+		  identifier : 'password',
+		  rules: [
+			{
+			  type   : 'empty',
+			  prompt : 'Password field must not be left empty'
+			},
+			{
+				type : 'validatePassword',
+				prompt : 'Invalid password'
+			}
+		  ]
+		}
+	},
+	onSuccess: function(event, fields) {
+		setTimeout(function(){
+			$(location).prop('href', 'http://www.uvicaero.com/mail/manage');
+		}, 1000);
+	}
+});
+
+// Add API action for newsletter signup
 $('.signup-form .submit.button').api({
 	action: 'newsletter add',
 	method: 'POST',
@@ -50,5 +96,7 @@ $('.signup-form .submit.button').api({
 		return settings;
 	}
 });
+
+$('.login-modal').modal('attach events', '.login-button', 'show');
 
 });

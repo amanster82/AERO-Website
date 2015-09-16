@@ -12,12 +12,12 @@
 		<script type='text/javascript' src='js/mailing-list.js'></script>
 	</head>
 	<body>
-		<div class="ui two column stackable grid masthead">
+		<div class="ui two column stackable grid masthead" style="display:none;">
 			<div class="column"></div>
 			<div class="column">
 				<div class="ui right aligned container">
 					<div class="login-container">
-						<button class="ui inverted basic button">Login</button>
+						<button class="ui inverted basic button login-button">Login</button>
 					</div>
 				</div>
 			</div>
@@ -110,6 +110,47 @@
 						</div>
 						</form>
 					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ui modal login-modal">
+			<i class="close icon"></i>
+			<div class="header">
+				Login
+			</div>
+			<div class="content">
+				<div class="description">
+					<div class="ui one column centered grid">
+						<div class="five wide column">
+							<div class="ui header">Enter secret password</div>
+								<form class="ui fluid form login-form" onsubmit="return false;">
+									<div class="one fields">
+										<div class="required field">
+											<label>Password</label>
+											<input type="password" placeholder="Enter password" name="password">
+										</div>
+									</div>
+									<div class="ui basic submit button">Login</div>
+									<div class="ui horizontal divider"></div>
+									<div class="ui one column centered grid">
+										<div class="one column left aligned container">
+												<div class="ui error message"></div>
+										</div>
+									</div>
+									<div class="ui one column centered grid">
+										<div class="ui success message">
+											<div class="header">Success</div>
+											<p>Redirecting..</p>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			<div class="actions">
+				<div class="ui black deny button">
+					Close
 				</div>
 			</div>
 		</div>
