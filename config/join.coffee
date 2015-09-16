@@ -13,7 +13,7 @@ module.exports =
         confluence: "http://confluence.uvicaero.com/display/MT/Mechanical+Team"
     ,
         name: "Mechanical Engineering"
-        description: "The mechanical engineering component of the team involves the development of all dedicated mechanical systems needed to support the UAV. These projects involve the antenna tracker, which rotates an antenna to always point at the plane and maintain high quality communications; the camera gimbal, which ensures that an on-board camera can be oriented in any desired position regardless of the orientation of the aircraft; and the launcher, which allows for flight take-off of the relatively large UAV."
+        description: "The mechanical engineering component of the team involves the development of all dedicated mechanical systems needed to support the UAV. These projects involve the antenna tracker, which rotates an antenna to always point at the plane and maintain high quality communications and the camera gimbal, which ensures that an on-board camera can be oriented in any desired position regardless of the orientation of the aircraft;"
         meetingTime: "Thursdays at 7:30pm"
         confluence: "http://confluence.uvicaero.com/display/MT/Mechanical+Team"
     ,
@@ -23,12 +23,12 @@ module.exports =
         meetingTime: "Thursdays at 6:30"
     ,
         name: "Embedded Systems"
-        description: "Members with closely with the Electrical Engineering and Software Engineering students to develop the integrated systems required both in the unmanned aerial vehicle (UAV) and the ground control station (GCS). Members get the opportunity to design, prototype, fabricate and test various electrical control hardware components, and work with the software team to program the software for their operation."
+        description: "Members work closely with the Electrical Engineering and Software Engineering students to develop the integrated systems required both in the unmanned aerial vehicle (UAV) and the ground control station (GCS). Members get the opportunity to design, prototype, fabricate and test various electrical control hardware components, and work with the software team to program the software for their operation."
         confluence: "http://confluence.uvicaero.com/display/ET/Embedded+Team"
         meetingTime: "Thursdays at 6:30"
     ,
         name: "Software Engineering"
-        description: "The goal of the competitions is to make the aircraft as autonomous as possible, so a comprehensive autopilot system is necessary. The software has to deal with sensor input, such as reading GPS receivers, gyroscopes, and accelerometers to adjust the course of the plane, and processing images to pick out targets of interest. Finally, the software is responsible for coordinating all other elements of the plane and interaction with the ground control station (GCS). This information is used by the flight team to analysis targets, survey images and mission details."
+        description: "The goal of the competitions is to make the aircraft as autonomous as possible, so a comprehensive autopilot system is necessary. The software has to deal with sensor input, such as reading GPS receivers, gyroscopes, and accelerometers to adjust the course of the plane, and processing images to pick out targets of interest. Finally, the software is responsible for coordinating all other elements of the plane and interaction with the ground control station (GCS). This information is used by the flight team to analyze targets, survey images and mission details."
         confluence: "http://confluence.uvicaero.com/display/ST/Software+Team"
         meetingTime: "Mondays at 6:30"
         #    ,
