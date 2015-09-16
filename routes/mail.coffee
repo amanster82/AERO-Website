@@ -1,12 +1,13 @@
 path = require('path')
 express = require('express')
 router = express.Router()
+config = require('config')
 mail = require('../mail/MailingList')()
 
 ### GET mail page. ###
 
 router.get '/', (req, res, next) ->
-  res.sendFile path.resolve(__dirname + '/../mail/index.html')
+  res.render path.resolve(__dirname + '/../mail/index'), config
   return
 
 router.post '/adduser', (req, res) ->

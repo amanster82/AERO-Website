@@ -1,0 +1,107 @@
+doctype html
+html
+  head
+    title UVic AERO Mailing List
+    link.ui(rel='stylesheet', type='text/css', href='http://oss.maxcdn.com/semantic-ui/2.1.3/components/reset.min.css')
+    link.ui(rel='stylesheet', type='text/css', href='http://oss.maxcdn.com/semantic-ui/2.1.3/semantic.min.css')
+    link.ui(rel='stylesheet', type='text/css', href='css/mailing-list.css')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    script(type='text/javascript', src='/js/jquery.js')
+    script(type='text/javascript', src='/js/jquery-serialize-object.js')
+    script(src='http://oss.maxcdn.com/semantic-ui/2.1.3/semantic.min.js')
+    script(type='text/javascript', src='js/mailing-list.js')
+  body
+    .ui.two.column.stackable.grid.masthead(style='display:none;')
+      .column
+      .column
+        .ui.right.aligned.container
+          .login-container
+            button.ui.inverted.basic.button.login-button Login
+    .ui.middle.aligned.center.aligned.grid.content-container
+      .column
+        .ui.center.aligned.container
+          img(src='http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbb21KNEtBdklqaTQ')
+          h1.ui.inverted.header Mailing List
+          .ui.horizontal.inverted.divider
+          .ui.one.column.centered.grid
+            .one.four.wide.column.left.aligned.container
+              ul.ui.big.list
+                li Get info on how to join
+                li Hear more about our success
+                li Learn about specific disciplines
+          .ui.horizontal.divider
+          .ui.padded.raised.segment
+            form.ui.inverted.fluid.form.signup-form(onsubmit='return false;')
+              .three.fields
+                .four.wide.required.field
+                  label First name
+                  input(type='text', placeholder='First Name', name='first')
+                .four.wide.required.field
+                  label Last name
+                  input(type='text', placeholder='Last Name', name='last')
+                .eight.wide.required.field
+                  label Email
+                  input(type='email', placeholder='jdoe@uvic.ca', name='email')
+              .ui.horizontal.divider
+              .seven.inline.fields
+                label.ui.basic.label What are you interested in?
+                .field
+                  .ui.checkbox
+                    input.hidden(type='checkbox', tabindex='0', name='general', checked='')
+                    label General Info
+                .field
+                  .ui.checkbox
+                    input.hidden(type='checkbox', tabindex='0', name='software')
+                    label Software
+                .field
+                  .ui.checkbox
+                    input.hidden(type='checkbox', tabindex='0', name='electrical')
+                    label Electrical
+                .field
+                  .ui.checkbox
+                    input.hidden(type='checkbox', tabindex='0', name='embedded')
+                    label Embedded
+                .field
+                  .ui.checkbox
+                    input.hidden(type='checkbox', tabindex='0', name='mechanical')
+                    label Mechanical
+                .field
+                  .ui.checkbox
+                    input.hidden(type='checkbox', tabindex='0', name='aeronautical')
+                    label Aeronautical
+              .ui.horizontal.divider
+              .massive.ui.inverted.basic.submit.button Sign Up
+              .ui.horizontal.divider
+              .ui.one.column.centered.grid
+                .one.four.wide.column.left.aligned.container
+                  .ui.error.message
+              .ui.one.column.centered.grid
+                .ui.success.message
+                  .header Success
+                  p Thanks for signing up to learn more about UVic AERO!
+    .ui.modal.login-modal
+      i.close.icon
+      .header
+        | Login
+      .content
+        .description
+          .ui.one.column.centered.grid
+            .five.wide.column
+              .ui.header Enter secret password
+              form.ui.fluid.form.login-form(onsubmit='return false;')
+                .one.fields
+                  .required.field
+                    label Password
+                    input(type='password', placeholder='Enter password', name='password')
+                .ui.basic.submit.button Login
+                .ui.horizontal.divider
+                .ui.one.column.centered.grid
+                  .one.column.left.aligned.container
+                    .ui.error.message
+                .ui.one.column.centered.grid
+                  .ui.success.message
+                    .header Success
+                    p Redirecting..
+      .actions
+        .ui.black.deny.button
+          | Close
