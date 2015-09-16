@@ -1,5 +1,6 @@
 module.exports =
     logo: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbbzZCQUg5WUEwejQ"
+    message: "Come to ECS 116 on September 21st for our General Meeting. All students are welcome!"
     intro:
         logo: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbb21KNEtBdklqaTQ"
         background: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbWEUxa0RramtIWDg"
@@ -18,10 +19,10 @@ module.exports =
         ]
     navbarRight: [
         title: 'About'
-        href: '/#about'
+        href: '/about'
     ,
         title: 'Join'
-        href: '/disciplines'
+        href: '/#join'
     ,
         title: 'Current Exec'
         href: '/currentexec'

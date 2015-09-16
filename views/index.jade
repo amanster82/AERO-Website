@@ -8,7 +8,10 @@ block content
                 .col-lg-12
                     .intro-message
                         img(src= layout.intro.logo)
-                        h3= club.shortDescription
+                        if layout.message
+                            h3= layout.message
+                        else
+                            h3= club.shortDescription
                         hr.intro-divider
                         ul.list-inline.intro-social-buttons
                             each button in layout.intro.buttons 
@@ -16,30 +19,4 @@ block content
                                     a.btn.btn-default.btn-lg(href=button.href)
                                         i(class="fa fa-#{button.fa} fa-fw")
                                         span.network-name= button.title
-                        if layout.message
-                            div!= markdown(layout.message)
-                        else
-                            h3 Connect with us
-    a(name='about')
-    .content-section-a
-        .container
-            .row
-                .col-lg-5.col-sm-6
-                    div!= markdown(about.whatWeDo.text)
-                .col-lg-5.col-lg-offset-2.col-sm-6
-                    img.img-responsive.img-rounded(src=about.whatWeDo.picture, alt='')
-    .content-section-b
-        .container
-            .row
-                .col-lg-5.col-lg-offset-1.col-sm-push-6.col-sm-6
-                    div!= markdown(about.competitions.text)
-                .col-lg-5.col-sm-pull-6.col-sm-6
-                    img.img-responsive.img-rounded(src=about.competitions.picture, alt='')
-    .content-section-a
-        .container
-            .row
-                .col-lg-5.col-sm-6
-                    .clearfix
-                    div!= markdown(about.objective.text)
-                .col-lg-5.col-lg-offset-2.col-sm-6
-                    img.img-responsive.img-rounded(src= about.objective.picture, alt='')
+    include disciplines.jade

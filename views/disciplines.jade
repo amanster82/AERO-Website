@@ -1,7 +1,11 @@
-extends layout
+// uncomment this if we decide to make the join page a separate page
+//extends layout
 
 block content
+    a(name='join')
     .container(style="padding-top:60px")
+        .col-lg-5.col-sm-6
+        div.text-center!= markdown(joinPage.description)
     - for team in joinPage.teams
         .content-section-b
             .container
@@ -10,7 +14,7 @@ block content
                         h1= team.name
                         p= team.description
                     .col-lg-5.col-lg-offset-2.col-sm-6
-                        h1 Meetings
+                        h3 Meetings
                         if team.meetingTime
                             p
                                 | The #{team.name} team meets on #{team.meetingTime} in 
@@ -24,7 +28,7 @@ block content
                             p 
                                 | The #{team.name} team does not currently have a meeting schedule
                         if team.confluence
-                            h1 More Information
+                            h3 More Information
                             p
                                 | See the #{team.name}'s
                                 &nbsp

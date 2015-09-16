@@ -7,19 +7,19 @@ block content
                 .col-lg-5.col-sm-6
                     div!= markdown(about.whatWeDo.text)
                 .col-lg-5.col-lg-offset-2.col-sm-6
-                    img.img-responsive(src=about.whatWeDo.picture, alt='')
+                    img.img-responsive.img-rounded(src=about.whatWeDo.picture, alt='')
     .content-section-b
         .container
             .row
                 .col-lg-5.col-lg-offset-1.col-sm-push-6.col-sm-6
-                    .clearfix
-                    div!= markdown(about.objective.text)
+                    div!= markdown(about.competitions.text)
                 .col-lg-5.col-sm-pull-6.col-sm-6
-                    img.img-responsive(src= about.objective.picture, alt='')
+                    img.img-responsive.img-rounded(src=about.competitions.picture, alt='')
     .content-section-a
         .container
             .row
                 .col-lg-5.col-sm-6
-                    div!= markdown(about.competitions.text)
+                    .clearfix
+                    div!= markdown(about.objective.text)
                 .col-lg-5.col-lg-offset-2.col-sm-6
-                    img.img-responsive(src=about.competitions.picture, alt='')
+                    img.img-responsive.img-rounded(src= about.objective.picture, alt='')
