@@ -36,3 +36,9 @@ body > .content-container {
 .content-container .form label {
 	font-size: 1.2em !important;
 }
+
+.content-container .form label.basic {
+	color: black !important;
+	margin-bottom: 0.6em;
+	margin-top: 0.5em;
+}

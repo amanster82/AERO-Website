@@ -24,7 +24,7 @@ html
           h1.ui.inverted.header Mailing List
           .ui.horizontal.inverted.divider
           .ui.one.column.centered.grid
-            .one.four.wide.column.left.aligned.container
+            .one.eight.wide.column.left.aligned.container
               ul.ui.big.list
                 li Get info on how to join
                 li Hear more about our success
@@ -42,30 +42,29 @@ html
                 .eight.wide.required.field
                   label Email
                   input(type='email', placeholder='jdoe@uvic.ca', name='email')
-              .ui.horizontal.divider
+              label.ui.basic.label What disciplines are you interested in?
               .seven.inline.fields
-                label.ui.basic.label What are you interested in?
-                .field
+                .three.wide.field
                   .ui.checkbox
                     input.hidden(type='checkbox', tabindex='0', name='general', checked='')
                     label General Info
-                .field
+                .three.wide.field
                   .ui.checkbox
                     input.hidden(type='checkbox', tabindex='0', name='software')
                     label Software
-                .field
+                .three.wide.field
                   .ui.checkbox
                     input.hidden(type='checkbox', tabindex='0', name='electrical')
                     label Electrical
-                .field
+                .three.wide.field
                   .ui.checkbox
                     input.hidden(type='checkbox', tabindex='0', name='embedded')
                     label Embedded
-                .field
+                .three.wide.field
                   .ui.checkbox
                     input.hidden(type='checkbox', tabindex='0', name='mechanical')
                     label Mechanical
-                .field
+                .three.wide.field
                   .ui.checkbox
                     input.hidden(type='checkbox', tabindex='0', name='aeronautical')
                     label Aeronautical
