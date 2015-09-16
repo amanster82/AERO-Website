@@ -1,4 +1,14 @@
 body {
+	height: 100%;
+	min-height: 100%;
+	color: white;
+}
+
+body > .masthead {
+	padding: 1em 0 0 1em !important;
+}
+
+body > .content-container {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d57b20+0,ffa84c+100 */
 	background: #d57b20; /* Old browsers */
 	background: -moz-linear-gradient(top,  #d57b20 0%, #ffa84c 100%); /* FF3.6+ */
@@ -9,23 +19,9 @@ body {
 	background: linear-gradient(to bottom,  #d57b20 0%,#ffa84c 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d57b20', endColorstr='#ffa84c',GradientType=0 ); /* IE6-9 */
 
-	height: 100%;
-	min-height: 100%;
-	color: white;
-}
-
-body > .masthead {
-	padding: 1em 0 0 1em !important;
-}
-
-.login-container {
-	margin-top: 0.8em;
-	margin-right: 2em;
-}
-
-body > .content-container {
-  height: 100%;
-  margin-top: -100px !important;
+	min-height: 100% !important;
+	padding: 0 !important;
+	margin: 0 !important;
 }
 
 .content-container .segment {
