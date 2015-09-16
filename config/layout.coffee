@@ -1,6 +1,6 @@
 module.exports =
     logo: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbbzZCQUg5WUEwejQ"
-    message: "Come to ECS 116 on September 21st for our General Meeting. All students are welcome!"
+    message: "Come to ECS 116 at 7:30pm on September 21st for our General Meeting. All students are welcome!"
     intro:
         logo: "/images/aero_logo.png"
         background: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbWEUxa0RramtIWDg"
