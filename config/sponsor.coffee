@@ -26,9 +26,10 @@ module.exports =
             cash: "1000+"
             rewards: [
                 "Small logo on website and promotional material"
+                "Social media coverage and recognition through all our platforms (Facebook, Twitter, etc)."
             ]
         Bronze:
-            cash: "1000+"
+            cash: "< 1000"
             rewards: [
                 "Small logo on website and promotional material"
             ]
@@ -46,7 +47,7 @@ module.exports =
         ATTN: Jody Kitts"""
     donateOnline:"""
     # Donate Online
-    If you wish to donate funds, or services to help support us and our mission, we will thank you for your gracious contribution on our webpage. 
+    If you wish to donate funds, or services to help support us and our mission, we will thank you for your gracious contribution on our webpage.
     *All donations are tax deductable*
     It is possible to donate directly to our team online through the [University of Victoria Online Donations Page](https://extrweb.uvic.ca/donation-forms/faculty-of-engineering).
 
