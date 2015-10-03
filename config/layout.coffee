@@ -14,7 +14,7 @@ module.exports =
         ,
             title: 'youtube'
             fa: 'youtube'
-            href: 'https://www.youtube.com/user/aeroUVic'
+            href: 'https://www.youtube.com/user/UVicAeroTeam/videos'
         ]
     navbarRight: [
         title: 'About'
