@@ -38,4 +38,7 @@ module.exports =
         logos: [
             logo: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbRTdPeldMc18zNDA"
             link: "http://engineersmachineshop.ca/"
+        ,
+            logo: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbTTVMNk55VUhzR1E"
+            link: "http://www.engenuics.com"
         ]
