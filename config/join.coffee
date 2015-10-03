@@ -10,7 +10,7 @@ module.exports =
         name: "Aeronautical Engineering"
         description: "Closely affiliated with the organization’s mechanical division, the aeronautical team is primarily concerned with the design, manufacture, and assembly of the system airframe. Internal structuring and logistical integration of payload subsystems are fundamental focuses. From computational fluid dynamics and airfoil analysis, to SolidWorks CAD, composite layups, and component machining, the aeronautical team ensures the UAS is capable of its aerial requirements. As such, flight testing, in-field adjustment, and post-operation maintenance/repair are supplementary concerns"
         meetingTime: "Thursdays at 7:30pm"
-        confluence: "http://confluence.uvicaero.com/display/MT/Mechanical+Team"
+        confluence: "http://confluence.uvicaero.com/display/AT/Aeronautical+Team"
     ,
         name: "Mechanical Engineering"
         description: "The mechanical engineering component of the team involves the development of all dedicated mechanical systems needed to support the UAV. These projects involve the antenna tracker, which rotates an antenna to always point at the plane and maintain high quality communications and the camera gimbal, which ensures that an on-board camera can be oriented in any desired position regardless of the orientation of the aircraft;"
