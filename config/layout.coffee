@@ -23,7 +23,7 @@ module.exports =
         title: 'Join'
         href: '/#join'
     ,
-        title: 'Current Exec'
+        title: 'Executives'
         href: '/currentexec'
     ,
         title: 'Sponsorship'

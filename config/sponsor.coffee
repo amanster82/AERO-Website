@@ -47,8 +47,8 @@ module.exports =
         ATTN: Jody Kitts"""
     donateOnline:"""
     # Donate Online
-    If you wish to donate funds, or services to help support us and our mission, we will thank you for your gracious contribution on our webpage.
     *All donations are tax deductable*
+    If you wish to donate funds, or services to help support us and our mission, we will thank you for your gracious contribution on our webpage.
     It is possible to donate directly to our team online through the [University of Victoria Online Donations Page](https://extrweb.uvic.ca/donation-forms/faculty-of-engineering).
 
     _Please be sure to select “UVic AERO (Student UAV Engineering)” in the Designation field on the online donations page. (See photo)_

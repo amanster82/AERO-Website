@@ -1,8 +1,8 @@
 module.exports =
     description:"""
-    # How can I help?
+    # How To Get Involved
     ## If you are a post-secondary student in the area, you can join us for any of the discipline meetings listed below. As a member you are encouraged to work on the systems that interest you and not necessarily the one that corresponds to your discipline.
-    ## Also, dont be shy or feel intimidated. We enjoy helping individuals of all skill levels develop the same passion for aeronautics that we have.
+    ## We enjoy helping individuals of all skill levels develop the same passion for aeronautics that we have.
 
     ### Note: If you have any trouble with the confluence links below please visit [our registration page](http://jira.uvicaero.com/secure/Signup!default.jspa) to sign up and see the pages.
     """
