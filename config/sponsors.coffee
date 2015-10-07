@@ -31,6 +31,8 @@ module.exports =
         height: "80px"
         width: "133px"
         logos: [
+            logo: "https://www.sendwithus.com/assets/img/swu_kit_logo_dark.png"
+            link: "http://www.sendwithus.com"
         ]
     "Bronze":
         height: "60px"
