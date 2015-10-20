@@ -43,4 +43,7 @@ module.exports =
         ,
             logo: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbTTVMNk55VUhzR1E"
             link: "http://www.engenuics.com"
+        ,
+            logo: "http://www.greathobbies.com/logo/jpg/team-greatgreathobbies-01-stacked-shadow-l.png"
+            link: "http://www.greathobbies.com/"
         ]
