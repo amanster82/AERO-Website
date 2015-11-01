@@ -1,5 +1,7 @@
 # Aero Website Repository
 
+[README](http://confluence.uvicaero.com/display/ST/Website)
+
 ## Installation
 Tools you will need, [NodeJS](https://nodejs.org/en/) and [Git](https://git-scm.com/downloads). 
 
