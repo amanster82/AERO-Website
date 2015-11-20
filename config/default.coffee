@@ -12,4 +12,3 @@ module.exports =
     sponsors: require './sponsors.coffee'
     contact: require './contact.coffee'
     joinPage: require './join.coffee'
-    memberPage: require './members.coffee'
