@@ -26,6 +26,10 @@ module.exports =
         title: 'Executives'
         href: '/currentexec'
     ,
+
+        title: 'Members'
+        href: '/members'
+    ,
         title: 'Sponsorship'
         dropdown: [
             title: "Current Sponsors"

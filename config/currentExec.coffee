@@ -55,5 +55,14 @@ module.exports =[
         """
         email: "mechanical@uvic.ca"
         picture: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbT21WMUZ4U1BUTlE"
+    ,    
+       	name:"Chris Hampu"
+        position: "Software Lead"
+        bio: """
+        Chris is a upper year computer science student. Since joining AERO in 2012, Chris has worked in backend and frontend development. As a student and business owner for consulting services, Chris assigns projects and provides guidance to fellow team members, along with support for hands on experience in a variety of areas. 
+            """
+        email: "software@uvic.ca"
+        picture: "/images/chris.JPG"
+
 
 ]
