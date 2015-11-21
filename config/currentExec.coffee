@@ -37,7 +37,23 @@ module.exports =[
         email: "embedded@uvicaero.com"
         picture: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbSjJ2Tkdmc09ZOW8"
         email: "embedded@uvicaero.com"
-    ,
+    ,   
+        name:"Shaun Wilkinson"
+        position: "Mechanical Lead"
+        bio: """
+            Shaun is a third year Mechanical Engineering student. Upon taking interest in aviation he joined the AERO team on his first day of University and has been with them ever since. Aspiring to become an aeronautical engineer one day, Shaun enjoys designing and building rockets and planes in his free time. Out of the workshop, Shaun enjoys being active and kicking a soccer ball around. Even a full semester’s course load can’t stop him from being on two soccer teams during any given term.
+        """
+        email: "mechanical@uvicaero.com"
+        picture: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbT21WMUZ4U1BUTlE"
+    ,    
+        name:"Chris Hampu"
+        position: "Software Lead"
+        bio: """
+        Chris is an upper year computer science student. Since joining AERO in 2012, Chris has worked in backend and frontend development. As a student and business owner for consulting services, Chris assigns projects and provides guidance to fellow team members, along with support for hands on experience in a variety of areas. 
+            """
+        email: "software@uvicaero.com"
+        picture: "/images/chris.JPG"
+    ,    
         name: "Dr. Afzal Suleman"
         position: "Faculty Advisor"
         bio: """
@@ -47,22 +63,7 @@ module.exports =[
         picture: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbNlpRMGl5MUxLNUk"
         phone: "250 721 6051"
         fax: "250 721 6039"
-    ,
-        name:"Shaun Wilkinson"
-        position: "Mechanical Lead"
-        bio: """
-            Shaun is a third year Mechanical Engineering student. Upon taking interest in aviation he joined the AERO team on his first day of University and has been with them ever since. Aspiring to become an aeronautical engineer one day, Shaun enjoys designing and building rockets and planes in his free time. Out of the workshop, Shaun enjoys being active and kicking a soccer ball around. Even a full semester’s course load can’t stop him from being on two soccer teams during any given term.
-        """
-        email: "mechanical@uvic.ca"
-        picture: "http://drive.google.com/uc?export=view&id=0B7bv1IFIZGRbT21WMUZ4U1BUTlE"
-    ,    
-       	name:"Chris Hampu"
-        position: "Software Lead"
-        bio: """
-        Chris is a upper year computer science student. Since joining AERO in 2012, Chris has worked in backend and frontend development. As a student and business owner for consulting services, Chris assigns projects and provides guidance to fellow team members, along with support for hands on experience in a variety of areas. 
-            """
-        email: "software@uvic.ca"
-        picture: "/images/chris.JPG"
+
 
 
 ]
